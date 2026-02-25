@@ -45,6 +45,9 @@ services:
     networks:
       - node-network
 
+volumes:
+  mysql_data:
+
 networks:
   node-network:
     driver: bridge
